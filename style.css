@@ -32,7 +32,7 @@ header{
     font-family: Arial, sans-serif;
 }
 
-ul {
+#barre {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ ul {
     background-color: navy;
 }
 
-li {
+#lien {
     float: left;
 }
 
@@ -56,4 +56,18 @@ li a {
 
 li a:hover {
     background-color: rgb(0, 119, 255);
+}
+
+.about{
+    list-style-type: none;
+    position: relative;
+    font-family: Arial, sans-serif;
+    left: 5%;
+}
+
+#parcours, #expertise, #expériences
+{
+    font-size: 1.6em;
+    text-align: justify;
+    padding-right: 30%;
 }
