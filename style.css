@@ -3,12 +3,12 @@
 }
 
 #header1{
-    padding-top: 4em;
+    padding-top: 1em;
 }
 
 header{
     background-color: rgb(11, 108, 187);
-    height: 33em;
+    height: 22em;
     width: 99.8%;
     border-style: solid;
     color: white;
@@ -16,10 +16,11 @@ header{
     font-size: 1.6em;
 }
 
-.logo{
-    height: 30%;
+.photo{
+    height: 45%;
     width: 10%;
-    padding-left: 45%;
+    position: relative;
+    left: 45%;
 }
 
 .bandeau{
