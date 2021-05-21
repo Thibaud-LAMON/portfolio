@@ -78,7 +78,7 @@ li a:hover {
     text-align: center;
 }
 
-.flex-container {
+.flexbox {
     display: flex;
     flex-wrap: nowrap;
     background-color: rgb(255, 255, 255);
@@ -86,7 +86,7 @@ li a:hover {
     border-color: white;
 }
   
-.flex-container > div {
+.flexbox > div {
     background-color: #4d4d4d;
     width: 200px;
     height: 200px;
@@ -99,11 +99,11 @@ li a:hover {
 }
 
 #travail {
-    transition: width 2s, height 4s;
+    transition: width 1s, height 2s;
 }
 
 #travail:hover {
-    width: 500px;
+    width: 800px;
     height: 500px;
 }
 
