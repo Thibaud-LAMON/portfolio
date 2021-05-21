@@ -77,3 +77,42 @@ li a:hover {
     font-family: Arial, sans-serif;
     text-align: center;
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: white;
+}
+  
+.flex-container > div {
+    background-color: #4d4d4d;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: rgb(11, 108, 187);
+    font-family: Arial, sans-serif;
+}
+
+#travail {
+    transition: width 2s, height 4s;
+}
+
+#travail:hover {
+    width: 500px;
+    height: 500px;
+}
+
+footer{
+    font-family: Arial, sans-serif;
+    font-size: 3em;
+    background-color: rgb(11, 108, 187);
+    height: 5em;
+    width: 99.8%;
+    padding-top: 3%;
+    text-align: center;
+}
